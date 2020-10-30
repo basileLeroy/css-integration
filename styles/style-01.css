@@ -1,1 +1,13 @@
-/* No CSS *//*# sourceMappingURL=style-01.css.map */
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  width: 100%;
+}
+/*# sourceMappingURL=style-01.css.map */
