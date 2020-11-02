@@ -1,6 +1,10 @@
 @media only screen and (max-width: 780px) {
     body {
+
         .container {
+            
+            /* reminder to try this in grid too */
+
             display: flex;
             justify-content: center;
             flex-direction: column;
@@ -13,15 +17,10 @@
             margin-top: 100px;
             margin-bottom: 100px;
 
+
             .box {
                 display: flex;
                 flex-direction: column;
-                
-            
-                
-
-                width: 75%;
-                height: auto;
 
                 margin-bottom: 100px;
 
@@ -31,16 +30,11 @@
                 }
 
                 .image-box {
-                    display: inline-block;
-                    text-align: center;
-                    
-                    width: 100%;
-                    height: 100%;
+                    height: 200px;
 
                     img {
-                        text-align: center;
-                        width: 100%;
-                        height: auto;
+                        display: block;
+                        margin: 0 auto;
                         
                     }
 
@@ -51,6 +45,10 @@
                     display: inline-block;
                     width: 50%;
                     margin-left: 25%;
+
+                    .mono {
+                        font-family: 'Inconsolata', monospace;
+                    }
 
                 }
 
@@ -82,7 +80,7 @@
                 
 
                 width: 25%;
-                height: auto;
+                
 
                 a {
                     text-decoration: none;
@@ -90,16 +88,13 @@
                 }
 
                 .image-box {
-                    display: inline-block;
+                    display: block;
                     text-align: center;
-                    
-                    width: 100%;
-                    height: 100%;
+                    height: 200px;
 
                     img {
-                        text-align: center;
-                        width: 100%;
-                        height: auto;
+                        display: block;
+                        margin: 0 auto;
                         
                     }
 
@@ -107,9 +102,15 @@
 
                 .text-box {
                     text-align: left;
-                    display: inline-block;
+                    display: block;
                     width: 50%;
                     margin-left: 25%;
+
+                    .mono {
+                        font-family: 'Inconsolata', monospace;
+                        
+                    }
+
 
                 }
 

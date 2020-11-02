@@ -1,0 +1,125 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  /*
+    #mockup {
+        width: 496px;
+        height: 265px;
+        background-image: url(https://raw.githubusercontent.com/becodeorg/gnt-verou-1-26/master/1.The-Field/4.HTML-CSS/5.End-of-Field/1.Trial-Run/images/15.card-small.png?token=ARLOQ35ZNMWPALHOK5QEBTS7VEQQA);
+    
+        position: absolute;
+        top: 0;
+        left: 0;
+    
+        opacity: 0.5;
+        z-index: 10;
+        pointer-events: none;
+    
+    }
+    */
+}
+
+body .container {
+  display: -ms-grid;
+  display: grid;
+  margin: 0;
+  position: absolute;
+  width: calc(496px - 3px - 3px);
+  height: calc(265px - 3px - 3px);
+  top: 0;
+  left: 0;
+      grid-template-areas: "image01 txt" "image01 txt";
+  -ms-grid-columns: 3.5fr 5fr;
+      grid-template-columns: 3.5fr 5fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+}
+
+body .container .image01 {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  width: 100%;
+  height: 100%;
+}
+
+body .container .txt {
+  padding-top: 25px;
+  padding-left: 18px;
+}
+
+body .container .txt .main {
+  background-color: white;
+  width: 100%;
+  height: 66%;
+}
+
+body .container .txt .footer {
+  background-color: white;
+  margin: 0;
+  width: 100%;
+  height: 33%;
+  display: -ms-grid;
+  display: grid;
+  grid-area: "profile info icon" "profile info icon";
+  -ms-grid-columns: 1fr 2fr 1fr;
+      grid-template-columns: 1fr 2fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+}
+
+body .container .txt .footer .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .txt .footer .profile img {
+  max-width: 50%;
+  border-radius: 50%;
+}
+
+body .container .txt .footer .info .name {
+  font-size: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 50%;
+}
+
+body .container .txt .footer .info .extra {
+  font-size: 10px;
+  height: 50%;
+}
+
+body .container .txt .footer .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style-03.css.map */

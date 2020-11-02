@@ -1,5 +1,6 @@
 @media only screen and (max-width: 780px) {
   body .container {
+    /* reminder to try this in grid too */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -27,8 +28,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 75%;
-    height: auto;
     margin-bottom: 100px;
   }
   body .container .box a {
@@ -36,21 +35,20 @@
     color: #8fc0a9;
   }
   body .container .box .image-box {
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-    height: 100%;
+    height: 200px;
   }
   body .container .box .image-box img {
-    text-align: center;
-    width: 100%;
-    height: auto;
+    display: block;
+    margin: 0 auto;
   }
   body .container .box .text-box {
     text-align: left;
     display: inline-block;
     width: 50%;
     margin-left: 25%;
+  }
+  body .container .box .text-box .mono {
+    font-family: 'Inconsolata', monospace;
   }
 }
 
@@ -80,28 +78,28 @@
         -ms-flex-direction: column;
             flex-direction: column;
     width: 25%;
-    height: auto;
   }
   body .container .box a {
     text-decoration: none;
     color: #8fc0a9;
   }
   body .container .box .image-box {
-    display: inline-block;
+    display: block;
     text-align: center;
-    width: 100%;
-    height: 100%;
+    height: 200px;
   }
   body .container .box .image-box img {
-    text-align: center;
-    width: 100%;
-    height: auto;
+    display: block;
+    margin: 0 auto;
   }
   body .container .box .text-box {
     text-align: left;
-    display: inline-block;
+    display: block;
     width: 50%;
     margin-left: 25%;
+  }
+  body .container .box .text-box .mono {
+    font-family: 'Inconsolata', monospace;
   }
 }
 /*# sourceMappingURL=style-01.css.map */
