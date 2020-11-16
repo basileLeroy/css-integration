@@ -15,7 +15,7 @@ body {
     #mockup {
         width: 496px;
         height: 265px;
-        background-image: url(https://raw.githubusercontent.com/becodeorg/gnt-verou-1-26/master/1.The-Field/4.HTML-CSS/5.End-of-Field/1.Trial-Run/images/15.card-small.png?token=ARLOQ35ZNMWPALHOK5QEBTS7VEQQA);
+        background-image: url(/assets/3th-interface.png);
     
         position: absolute;
         top: 0;
@@ -43,6 +43,9 @@ body .container {
       grid-template-columns: 3.5fr 5fr;
   -ms-grid-rows: 1fr;
       grid-template-rows: 1fr;
+  border-style: solid;
+  border-color: #a0a0a0;
+  border-width: 0.5px;
 }
 
 body .container .image01 {
@@ -55,20 +58,26 @@ body .container .image01 {
 
 body .container .txt {
   padding-top: 25px;
-  padding-left: 18px;
+  padding-left: 0px;
 }
 
 body .container .txt .main {
   background-color: white;
-  width: 100%;
+  width: auto;
   height: 66%;
+  padding-left: 20px;
+}
+
+body .container .txt .main h3 {
+  padding-bottom: 12px;
+  font-family: sans-serif;
 }
 
 body .container .txt .footer {
   background-color: white;
   margin: 0;
   width: 100%;
-  height: 33%;
+  height: 32%;
   display: -ms-grid;
   display: grid;
   grid-area: "profile info icon" "profile info icon";
@@ -76,6 +85,7 @@ body .container .txt .footer {
       grid-template-columns: 1fr 2fr 1fr;
   -ms-grid-rows: 1fr;
       grid-template-rows: 1fr;
+  font-family: sans-serif;
 }
 
 body .container .txt .footer .profile {
@@ -96,7 +106,7 @@ body .container .txt .footer .profile img {
 }
 
 body .container .txt .footer .info .name {
-  font-size: 10px;
+  font-size: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -107,7 +117,7 @@ body .container .txt .footer .info .name {
 }
 
 body .container .txt .footer .info .extra {
-  font-size: 10px;
+  font-size: 14px;
   height: 50%;
 }
 
@@ -121,5 +131,10 @@ body .container .txt .footer .icon {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+body .container .txt .footer .icon img {
+  width: 23%;
+  padding-right: 5px;
 }
 /*# sourceMappingURL=style-03.css.map */
